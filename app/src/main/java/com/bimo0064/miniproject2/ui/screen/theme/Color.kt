@@ -1,4 +1,4 @@
-package com.bimo0064.miniproject2.ui.theme
+package theme
 
 import androidx.compose.ui.graphics.Color
 

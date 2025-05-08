@@ -1,4 +1,4 @@
-package com.bimo0064.miniproject2.ui.theme
+package theme
 
 import android.app.Activity
 import android.os.Build
@@ -12,15 +12,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = theme.Purple80,
+    secondary = theme.PurpleGrey80,
+    tertiary = theme.Pink80
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
+    primary = theme.Purple40,
+    secondary = theme.PurpleGrey40,
+    tertiary = theme.Pink40
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
@@ -52,7 +52,7 @@ fun MiniProject2Theme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = theme.Typography,
         content = content
     )
 }
